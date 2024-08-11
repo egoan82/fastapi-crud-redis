@@ -36,7 +36,7 @@ This is an API built with FastAPI that interacts with a Redis database. The API 
 
 To run the application, use the following command:
 ```bash
-uvicorn api.router:router --reload
+uvicorn main:app --port 8001 --reload
 ```
 
 ## Endpoints
