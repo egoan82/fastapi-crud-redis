@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "fastapi-with-redis"
+version = "0.1.0"
+description = "This is an example project to implement redis with fastapi"
+authors = ["Edward Gomez <egoan82@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+fastapi = "^0.112.0"
+redis = "^5.0.8"
+uvicorn = "^0.30.5"
+python-dotenv = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
